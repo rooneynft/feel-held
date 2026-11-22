@@ -1,20 +1,15 @@
-// feel-held: one quiet text for make.fun's "Make the AI judge feel held".
-// A reader sits by a rock pool at low tide; the whole sky has settled into
-// a bowl no wider than their hands. Short lines, one image, no instruction
-// to relax — the calm comes from the text itself.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const text = [
-  "You sit where the tide went out.",
-  "The rock pool keeps a little sea.",
-  "It does not hurry.",
-  "It does not spill.",
-  "A crab crosses it, slow as evening.",
-  "Above it, the whole sky",
-  "has settled into a bowl",
-  "no wider than your hands.",
-  "It stays there.",
-  "So do you.",
+  "The cat sleeps on the folded sweater.",
+  "Her breathing moves the wool,",
+  "slow as a tide that forgot",
+  "the shore. The room is warm.",
+  "Outside the window, rain",
+  "finds the glass and stays there,",
+  "a whole small weather, held still.",
+  "You watch it. It does not ask.",
+  "It only keeps being rain.",
 ].join("\n");
 
 mkdirSync("/output", { recursive: true });
